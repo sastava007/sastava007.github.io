@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="713px" height="202px" viewBox="0 0 713 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-727.000000, -822.000000)">
+            <g id="Group" transform="translate(727.000000, 852.000000)">
+                <path d="M170.5,146.5 L422.5,0.5" id="Line" stroke="#EA4141" stroke-width="44" stroke-linecap="square"></path>
+                <path d="M591.5,84.5 L438.5,0.5" id="Line-Copy" stroke="#EA4141" stroke-width="44" stroke-linecap="square"></path>
+                <polygon id="Triangle-2" fill="#EA4141" points="137.5 87 275 172 0 172"></polygon>
+                <polygon id="Polygon-Copy-2" fill="#EA4141" points="659.5 25 723 61.6617421 723 134.985226 659.5 171.646968 596 134.985226 596 61.6617421"></polygon>
+                <polygon id="Triangle" fill="#031D33" points="433.5 17 696 172 171 172"></polygon>
+                <polygon id="Triangle-3" fill="#031D33" points="700 133 759 172 641 172"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

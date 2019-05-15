@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="761px" height="193px" viewBox="0 0 761 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>landing_element</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing_element" transform="translate(386.859375, 87.437500) rotate(-180.000000) translate(-386.859375, -87.437500) translate(12.859375, 1.437500)">
+            <g id="Page-1">
+                <g id="Desktop-HD">
+                    <g id="Group">
+                        <path d="M170.5,146.5 L422.5,0.5" id="Line" stroke="#031D33" stroke-width="44"></path>
+                        <path d="M609,150 L696,109" id="Line-Copy" stroke="#031D33" stroke-width="44"></path>
+                        <path d="M748,155 L675,107" id="Line-Copy-2" stroke="#031D33" stroke-width="44"></path>
+                        <path d="M653,149 L400,2" id="Line-Copy" stroke="#031D33" stroke-width="50"></path>
+                        <polygon id="Triangle-2" fill="#EA4141" points="137.5 87 275 172 0 172"></polygon>
+                        <polygon id="Triangle" fill="#EA4141" points="414.5 17 677 172 152 172"></polygon>
+                        <polygon id="Triangle-3" fill="#EA4141" points="677 133 736 172 618 172"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
