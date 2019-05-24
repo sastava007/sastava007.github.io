@@ -208,7 +208,7 @@
 	flex-direction:row;
 }
 .projects img{
-	height: 25vw;
+	height: 29vw;
 	width: 35vw;
 	margin-left:5vw;
 	transition-property: all;
@@ -231,7 +231,7 @@
   margin-left:5.8vw;
   right: 0;
   
-  height: 25vw;
+  height: 29vw;
   width: 35vw;
   opacity: 0;
   transition: .5s ease;
@@ -242,7 +242,7 @@
 	  font-size: 1.3vw;
 	  position: absolute;
 	  min-width:35vw;
-	  max-height:25vw;
+	  max-height:29vw;
 	  top: 50%;
 	  left: 50%;
 	  -webkit-transform: translate(-50%, -50%);
