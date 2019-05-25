@@ -196,6 +196,7 @@
 	padding-bottom:0vw;
 	padding-top: 8vw;
 }
+
 .projects{
 	background-color: #ea4141;
 	position: absolute;
@@ -217,6 +218,10 @@
 	    transition-delay: 0s;
 }
 .foodz{
+	display:block;   
+	position:relative;
+}
+.disqs{
 	display:block;
 	position:relative;
 }
@@ -270,6 +275,10 @@
 	color: #ea4141;
 }
 .foodz:hover .overlay{
+	opacity:0.9;
+	cursor: pointer;
+}
+.disqs:hover .overlay{
 	opacity:0.9;
 	cursor: pointer;
 }
