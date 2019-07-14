@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="style/blog.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
   <style>
     @font-face{
     font-family:Futura;src:
@@ -39,9 +40,24 @@
 </div>
 
 
+<span class="likebtn-wrapper" data-theme="heartcross" data-ef_voting="grow" data-identifier="item_1" data-show_like_label="false" data-dislike_enabled="false" data-icon_dislike_show="false" data-popup_width="200"></span>
+
+<script>
+(function(d,e,s)
+{
+if(d.getElementById("likebtn_wjs"))return;
+a=d.createElement(e);
+m=d.getElementsByTagName(e)[0];a.async=1;
+a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)}
+)
+(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+
+<applause-button class="likebtn-wrapper" data-theme="heartcross" data-ef_voting="grow" data-identifier="item_1" data-show_like_label="false" data-dislike_enabled="false" data-icon_dislike_show="false" data-popup_width="200"/>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 </body>
 </html>
