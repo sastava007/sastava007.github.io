@@ -510,5 +510,31 @@
 	  #sec6 h3{
 		  font-size: 4vw;
 	  }
+	  .landing-projects-container h1{
+	  	font-size: 8vw;
+	  }
+	   .projImg {
+	    height: 55vw;
+	  	width: 50vw;
+	    }
+	    .featured-project{
+	    	margin: 3vw;
+	    }
+	    .projDesc p{
+	    	font-size: 3vw;
+	    	text-align: justify-all;
+	    }
+	    .projDesc h3{
+	    	margin-top: 0vw;
+	    }
+	    .projDesc i{
+	    	margin-top: -4vw;
+	    }
+	    .skills h1{
+	    	font-size: 8vw;
+	    }
+	    .about-container h1{
+	    	font-size: 8vw;
+	    }
 	  
   } 
