@@ -10,7 +10,7 @@
   ::-webkit-scrollbar-thumb:hover {
 	background:#ea4141 
   }
-  
+
   .menu {
 	height: 70px;
 	width: 70px;
@@ -131,6 +131,7 @@
 	margin: auto;
   }
   .landing{
+  		/*height: 100vh;*/
 	  padding-bottom:6vw;
   }
   
@@ -175,13 +176,88 @@
 	  margin-bottom: -.2rem;
 	  padding-top: 1vw;
   }
-  .main-container h1{
-	  font-family: Arial;
-	  font-weight: bold;
-	  color: #fff;
-	  text-align: center;
-	  padding-top: 3vw;
+  
+  .main-container .landing-text h1,h2{
+  		font-family: Futura;
+	    margin-top: 5vw;
+	    margin-left: 5vw;
+	    color: #fff;
   }
+
+  .main-container .landing-text p{
+  	font: Arial;
+  	color: white;
+	margin-left: 5vw;
+ 	
+  }
+  .button-link {
+	  color: #ea4141 !important;
+	  text-decoration: none;
+	  background: #ffffff;
+	  font-family: Futura;
+	  padding:1rem;
+	  border: 4px solid #ea4141 !important;
+	  display: inline-block;
+	  transition: all 0.4s ease 0s;
+  }
+  .button-link:hover {
+	  color: #fff !important;
+	  background: #ea4141;
+	  border-color: #031E33 !important;
+	  transition: all 0.4s ease 0s;
+  }
+ 
+  .btn-expand {
+     border-radius: 2px;
+     background:#ea4141;
+     border: none;
+     color: #FFF !important;
+     text-align: center;
+     font-family: Futura;
+     letter-spacing: 1px;
+     font-size:1vw;
+     padding: 20px;
+     position: sticky;
+     width: 10vw;
+     transition: all 0.4s;
+   }
+ 
+   .btn-expand span {
+     display: inline-block;
+     position: relative;
+     transition: 0.4s;
+   }
+   .btn-expand span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+   }
+   .btn-expand:hover span {
+     padding-right: 25px;
+   }
+   .btn-expand:hover span:after {
+     opacity: 1;
+     right: 0;
+   }
+   .main-container-buttons{
+   	margin-left: 5vw;
+   }
+
+  .profile{
+  	margin-top: 5vw;
+  	margin-left:5vw; 
+  }
+  .profile-pic{
+  	border-radius: 50%;
+  	height: 25vw;
+  	width: 25vw;
+  	border: 3px solid #ea4141 !important;
+  	margin-left: 10vw;
+  }
+
   .card{	
 	  margin: 5vw;
 	  -webkit-transition: all 0.5s ease-in-out;
@@ -506,6 +582,14 @@
 		  margin-right:1.5vw;
 		  right: 8vw;
 		  font-weight: bold;
+	  }
+
+	  .btn-expand{
+	  	font-size: 3vw;
+	  	padding: 3vw;
+	  }
+	  .profile{
+	  	display: none;
 	  }
 	  #sec6 h3{
 		  font-size: 4vw;

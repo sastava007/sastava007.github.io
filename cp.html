@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shivansh Srivastava</title>
+	<style>
+		@font-face{
+		font-family:Futura;src:
+		url(style/fonts/Futura-bold.woff2) format('woff2'),
+		url(style/fonts/Futura-bold.woff) format('woff');font-weight:400;font-style:normal,
+		url(style/fonts/Futura-bold.ttf) format("truetype")
+		}
+
+		body{
+			margin-right: -2vw;
+		}
+
+		.oops_text{
+			text-align: center;
+			margin:2vw;
+			font-family: Futura;
+			font-size:4vw;
+			letter-spacing: 1px;
+		}
+
+		.example_e {
+		border: none;
+		background:#ea4141;
+		color: #ffffff !important;
+		font-weight: 100;
+		font-family: Futura;
+		padding: 20px;
+		text-transform: uppercase;
+		border-radius: 6px;
+		display: inline-block;
+		transition: all 0.3s ease 0s;
+		margin-right: 0vw;
+		}
+
+		.example_e:hover {
+		color: #fff !important;
+		font-weight: 700 !important;
+		letter-spacing: 1px;
+		background: #031E33;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.3s ease 0s;
+		text-decoration-line: none;
+		}
+
+		.button_cont{
+			margin-left: 12vw;
+			margin-right: 0vw;
+
+		}
+		/*	FOR MOBILE DEVICES */
+		@media only screen and (max-width: 600px){
+
+		.example_e{
+			width: 10vw;
+			padding: 3vw;
+		}
+
+		}
+
+	</style>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"crossorigin="anonymous">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+</head>
+<body>
+
+	<h1 class="oops_text">OOPS!</h1>
+	<div class="row">
+		<div class="col-md-6 col-sm-4 col-xs-12">
+			<center><img src="images/constr.jpeg" style="height: 35vw;width: 65vw;"></center>
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12">
+			<h2  style="font-family: Futura; margin:3vw 0vw 0vw 14vw;"><span style="color: #ea4141">Shivansh</span> might be busy somewhere solving some coding problem!</h2>
+			<h3 style="margin:2vw 0vw 3vw 14vw;">Check out his Github Repositry till while he try to figure out what to put here :)</h3>
+			<div class="button_cont col-md-5 col-sm-5 col-xs-12" align="center"><a class="example_e" href="https://github.com/sastava007/Competitive-Programming" target="_blank" rel="nofollow noopener"><span>Github Repositry</span></a></div>
+		</div>
+	</div>
+
+</body>
+</html>
