@@ -159,7 +159,7 @@
   #right1{
 	  position: absolute;
 	  right: 0vw;
-	  top: 75%;
+	  top: 80vh;
 	  padding: 0vw;
 	  margin: 0vw;
 	  width: auto;
@@ -247,15 +247,12 @@
    }
 
   .profile{
-  	margin-top: 5vw;
-  	margin-left:5vw; 
+  	margin-top: 2vw;
   }
   .profile-pic{
-  	border-radius: 50%;
-  	height: 25vw;
-  	width: 25vw;
-  	border: 3px solid #ea4141 !important;
-  	margin-left: 10vw;
+  	height: 30vw;
+	width: 33vw;
+	margin-left: 10vw;
   }
 
   .card{	
@@ -410,8 +407,8 @@
 	  height: auto;
 	  position: absolute;
 	  padding: 0vw;
-	  padding-top: 8w;
-	  padding-bottom:6vw;
+	  padding-top: 4w;
+	  padding-bottom:4vw;
   }
   .projects h1,
   .skills h1{
